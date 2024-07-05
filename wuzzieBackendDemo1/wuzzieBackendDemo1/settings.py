@@ -85,12 +85,12 @@ WSGI_APPLICATION = 'wuzzieBackendDemo1.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.mysql',  # Add 'postgresql_psycopg2', 'mysql', 'sqlite3' or 'oracle'.
-        'NAME': 'railway',                      # Or path to database file if using sqlite3.
-        'USER': 'root',                      # Not used with sqlite3.
-        'PASSWORD': 'BZMjJaKrRzXXLWzYIDGjnRAWNtMKRhhl',                  # Not used with sqlite3.
-        'HOST': 'viaduct.proxy.rlwy.net',                      # Set to empty string for localhost. Not used with sqlite3.
-        'PORT': '23112',                      # Set to empty string for default. Not used with sqlite3.
+        'ENGINE': 'django.db.backends.mysql',  
+        'NAME': 'railway',                     
+        'USER': 'root',                      
+        'PASSWORD': '****************',                 
+        'HOST': 'viaduct.proxy.rlwy.net',                     
+        'PORT': '23112',                     
     }
 }
 
